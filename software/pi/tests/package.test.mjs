@@ -50,14 +50,14 @@ test("Pi packages the commit-pinned rivet-dev ACP adapter and runtime closure", 
 	);
 	assert.equal(packageJson.dependencies["pi-acp"], undefined);
 	assert.equal(packageJson.dependencies["pi-mcp-adapter"], "2.11.0");
-	assert.equal(upstreamManifest.sourceRepository, "rivet-dev/pi-acp");
+	assert.equal(upstreamManifest.sourceRepository, "afrog33k/pi-acp");
 	assert.equal(
 		upstreamManifest.sourceCommit,
-		"87cb3ab06d9b7e781db9c9575755153b50b2ba90",
+		"9c2f57f4a159131b46cd6c2ab79832495185fcfe",
 	);
 	assert.equal(
 		upstreamManifest.sourceTarballSha256,
-		"85bc7e133d28e9d870ecad7aa3de9e6a17ffea142443a177d618597a56c72cd7",
+		"81a3eea806990393d9cdd1f421cf72203637b0786be6ffe61f24ee471a412a95",
 	);
 	assert.equal(upstreamManifest.sourcePackageVersion, "0.0.31");
 	assert.deepEqual(upstreamManifest.buildCommands, ["npm ci", "npm run build"]);

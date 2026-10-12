@@ -14,10 +14,10 @@ import {
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const SOURCE_REPOSITORY = "rivet-dev/pi-acp";
-const SOURCE_COMMIT = "87cb3ab06d9b7e781db9c9575755153b50b2ba90";
+const SOURCE_REPOSITORY = "afrog33k/pi-acp";
+const SOURCE_COMMIT = "9c2f57f4a159131b46cd6c2ab79832495185fcfe";
 const SOURCE_TARBALL_SHA256 =
-	"85bc7e133d28e9d870ecad7aa3de9e6a17ffea142443a177d618597a56c72cd7";
+	"81a3eea806990393d9cdd1f421cf72203637b0786be6ffe61f24ee471a412a95";
 const SOURCE_TARBALL_URL = `https://github.com/${SOURCE_REPOSITORY}/archive/${SOURCE_COMMIT}.tar.gz`;
 
 const packageDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");

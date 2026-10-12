@@ -119,7 +119,8 @@ add compatibility views, aliases, legacy adoption paths, or dual writes.
   only when the caller explicitly supplied them.
 - Agent adapters must use real upstream SDKs. Do not replace SDK adapters with
   direct API-call stubs.
-- `rivet-dev/pi-acp` is an agentOS-maintained fork. When Pi ACP behavior needs
+- `afrog33k/pi-acp` (a fork of the agentOS-maintained `rivet-dev/pi-acp`) is
+  the pinned Pi ACP source. When Pi ACP behavior needs
   to change, fix and test the fork directly, push the fork commit, then update
   the pinned commit and verified source-archive checksum in
   `software/pi/scripts/build-pi-acp.mjs`; do not work around fork bugs in the
