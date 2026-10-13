@@ -15,9 +15,9 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const SOURCE_REPOSITORY = "afrog33k/pi-acp";
-const SOURCE_COMMIT = "9c2f57f4a159131b46cd6c2ab79832495185fcfe";
+const SOURCE_COMMIT = "b83906f11eb4976eb0f2e26c5e37359cc65b4807";
 const SOURCE_TARBALL_SHA256 =
-	"81a3eea806990393d9cdd1f421cf72203637b0786be6ffe61f24ee471a412a95";
+	"9e3286b840ae89f0f06ac3452ca7e9026b7dee2f3ba49c9f824653ae8696bdf4";
 const SOURCE_TARBALL_URL = `https://github.com/${SOURCE_REPOSITORY}/archive/${SOURCE_COMMIT}.tar.gz`;
 
 const packageDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
